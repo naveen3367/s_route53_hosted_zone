@@ -1,4 +1,4 @@
 resource "aws_route53_zone" "zone" {
-  name = var.domain_name
+  name = var.hosted_zone_name
   tags = var.tags
 }
